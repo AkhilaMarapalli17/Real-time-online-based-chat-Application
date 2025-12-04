@@ -1,0 +1,67 @@
+Perfect! 🎉 Since your backend build was successful, the next step is to run the backend and then the frontend, so you can see the chat application in action.
+
+Here’s what to do next:
+
+Step 1: Run the Backend
+
+In the same project folder (where pom.xml is located), run:
+
+mvnd spring-boot:run
+
+
+Wait for it to start. You should see logs like:
+
+Started ChatApplication in X seconds
+
+
+The backend is now running on:
+
+http://localhost:8080
+
+
+This is your Spring Boot server that handles WebSocket connections and API calls.
+
+Step 2: Run the Frontend (React)
+
+Open a new CMD window.
+
+Navigate to the frontend folder (if your repo has a frontend folder):
+
+cd C:\Users\marap\Desktop\jfs\spring-boot-websocket-chat-demo-master\frontend
+
+
+Install dependencies (only needed the first time):
+
+npm install
+
+
+Start the React frontend:
+
+npm start
+
+
+By default, it will open a browser at:
+
+http://localhost:3000
+
+
+The frontend connects to your backend at http://localhost:8080 automatically.
+
+Step 3: Test the Application
+
+Open multiple browser windows or tabs to simulate different users.
+
+Try sending messages — one-to-one and group chat.
+
+Check online indicators if the app supports them.
+
+✅ Summary
+mvnd clean compile
+
+mvnd spring-boot:run → backend running on 8080
+
+npm start → frontend running on 3000
+
+Chat application should now be fully functional without Docker.
+
+If you want, I can also guide you to configure the frontend and backend to work on the same port to avoid CORS issues, which makes it easier to run the app smoothly.
