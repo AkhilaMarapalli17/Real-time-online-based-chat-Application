@@ -26,4 +26,32 @@ A real-time web-based chat application that allows users to communicate instantl
 ---
 
 ## 📌 Project Structure
+/project-folder
+│── public/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+│── server/
+│ ├── server.js
+│
+│── package.json
+│── README.md
 
+
+---
+
+## ⚙️ Installation & Running the Project
+
+### 1️⃣ Install dependencies
+```sh
+npm install
+
+2️⃣ Start the server
+node server.js
+
+3️⃣ Open the application
+
+Open your browser and visit:
+
+http://localhost:3000
